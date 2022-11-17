@@ -182,3 +182,30 @@
         display: none;
     }
 }
+
+/*Container de animês*/
+
+@media (max-width: 649px){
+    .containeranimes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/*Diminuir imagens grandes da pagina em aparelhos menores*/
+
+@media (max-width: 500px){
+    .imgG2 > img{
+    width: 70%;
+    display: flex;
+    height: 70vh;
+    padding-bottom: 30px;
+    }
+    .imgG1 > img{
+        width: 100%;
+        margin: auto;
+        height: 60vh;
+    }
+}
+

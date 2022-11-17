@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav{
+            background-color: #A7A5A5;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.466);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.404);
+        }
+        article{
+            background-color: rgb(167, 165, 165);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        article > aside{
+            background-color: lightgray;   
+            margin-left: -5px;
+            margin-right: -5px;        
+            
+        }
+        aside > p{
+            padding-left: 10px;
+        }
+        span {
+            font-weight: bold;
+        }
+        article > p{
+            text-indent: 10px;
+            text-align: justify;
+            margin: 15px 5px;    
+        }
+        article > h2{
+            margin-top: 4px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre tecnologia e desenvolvimento Aéreo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates veritatis praesentium neque sequi hic a repudiandae at? Blanditiis nulla sunt quam fuga nihil saepe possimus ipsa. Officiis, eligendi ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sit quis error inventore soluta, eveniet id. Quisquam saepe sed nihil velit blanditiis, pariatur inventore nisi cupiditate a officia. Veritatis, esse!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, beatae! Voluptatum, atque debitis. Culpa consectetur labore exercitationem suscipit reprehenderit perspiciatis accusamus voluptatum. Modi, alias! Laboriosam quaerat est ipsum illo in?</p>
+                <aside>
+                    <p>Artigo escrito por <span>chupa mascarado cabral</span>.</p>
+                </aside>
+            </article>
+            <article>
+                <h2>noticias sobre as fontes termais de nano robôs.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quaerat dolorum praesentium commodi earum iste blanditiis consequuntur? Rerum non molestiae a voluptatum velit, dicta commodi accusantium optio consequatur delectus itaque!Lorem</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt nihil sint provident, pariatur quam quibusdam magnam tempora dicta placeat cupiditate? Quae impedit culpa dolore illo delectus earum tempora repellat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, labore dolor. Dolorem, nulla numquam. Dolorem nihil amet placeat odit sit culpa beatae accusamus maiores labore aliquid? Vel voluptatem odit exercitationem!</p>
+                <aside>
+                    <p>Artigo escrito por <span>alvarés tchariskovs</span>.</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por <span>Carlos amorim</span></p>
+    </footer>
+</body>
+</html>

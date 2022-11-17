@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*diferença entre id e class:
+
+    - Dentro de um mesmo documento só pode existir apenas um elemento id específico, não pode repetir.
+
+    - Para usar repetição em outros elementos podemos utilizar o class. 
+
+    id - unico.
+    class - múltiplos.
+*/
+
+body{
+    background-color: rgb(125, 250, 125);
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    color: rgb(7, 97, 7);
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(7, 97, 7);
+    color: white;
+}
+h2{
+    color: rgb(87, 150, 87);
+}
+.basico{
+    color: blue;
+}
+.intermediario{
+    color: rgb(218, 218, 5);
+}
+.avancado{
+    color: red;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        body{
+            background-color: rgba(2, 82, 82, 0.315);
+        }
+        h1{
+            border: 16px solid transparent;
+            padding: 10px;
+            /*border-image-source: url('borda.png');
+            border-image-slice: 26;
+            border-image-repeat: repeat;*/
+            /*short-hand */
+            border-image: url('borda.png') 26 repeat;
+        }
+        h2{
+            border: 10px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+    <h2>Guerra dos 1000 anos</h2>
+</body>
+</html>

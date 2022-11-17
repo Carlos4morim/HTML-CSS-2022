@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você esta vendo a imagem completa ? esperimente aumentar o tamanho da sua tela para ter uma melhor experiência.</p>
+    <picture>
+        <source media="(max-width: 450px )" srcset="imagens/fina-450.jpg" type="image/jpg">
+        <source media="(max-width: 607px )" srcset="imagens/imagem-450.jpg" type="image/jpg">
+        <source media="(max-width: 800px )" srcset="imagens/imagem-600.jpg" type="image/jpg">
+        <source media="(max-width: 850px )" srcset="imagens/imagem-800.jpg" type="image/jpg">
+        <source media="(max-width: 950px )" srcset="imagens/imagem-900.jpg" type="image/jpg">
+        <img src="imagens/imagem-950.jpg" alt="imagem-950">
+    </picture>
+</body>
+</html>

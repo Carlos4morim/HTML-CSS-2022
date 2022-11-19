@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parágrafo e imagens</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        main{
+            height: 90vh;
+            max-width: 80%;
+            background-color: white;
+            margin: auto;
+            padding: 10px ;
+        }
+        h1{
+            text-align: center;
+            font-size: 3em;
+            margin-top: 0;
+            border-bottom: 1px gray solid;
+        }
+        article > p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            
+        }
+
+        article > div > img{
+            position: absolute;
+
+            left: 78%;
+            top: 18%;
+        }
+        .paragrafo{
+            max-width: 80%;
+        }
+        @media (max-width: 813px){
+            article > div > img{
+            position: absolute;
+
+            left: 77%;
+            top: 24%;
+        }
+        }
+        @media (max-width: 777px){
+            article > div > img{
+            position: absolute;
+
+            left: 76%;
+            top: 24%;
+        }
+        }
+        @media (max-width: 716px){
+            article > div > img{
+            position: absolute;
+
+            left: 75%;
+            top: 24%;
+        }
+        }
+        @media (max-width: 675px){
+            article > div > img{
+            position: absolute;
+
+            left: 74%;
+            top: 24%;
+        }
+        .paragrafo{
+            max-width: 70%;
+        }
+        }
+        @media (max-width: 675px){
+            article > div > img{
+            position: absolute;
+
+            left: 73%;
+            top: 24%;
+        }
+        .paragrafo{
+            max-width: 70%;
+        }
+        }
+        @media (max-width: 606px){
+            article > div > img{
+            position: absolute;
+
+            left: 71%;
+            top: 24%;
+        }
+        .paragrafo{
+            max-width: 70%;
+        }
+        }
+        @media (max-width: 550px){
+            article > div > img{
+            position: absolute;
+
+            left: 69%;
+            top: 24%;
+        }
+        .paragrafo{
+            max-width: 70%;
+        }
+        }
+        @media (max-width: 500px){
+            article > div > img{
+            display: none;
+        }
+        .paragrafo{
+            max-width: 100%;
+            background-image: url('imagens/pattern004.png');
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Tipos de materias</h1>
+        <article>
+                <h2>Whirlfloc G</h2>
+            <p class="paragrafo">
+                É um floculante granulado especialmente utilizado para floculação e precipitação das proteínas de trub. Após a fervura do mosto resulta em um trub mais compacto.
+            </p>
+
+            <div>
+            <img src="imagens/pattern004.png" alt="">
+            </div>
+
+                <h3>Benefícios:</h3>
+
+            <p>
+                Mosto mais límpido e brilhante, reduzindo a níves muito satisfatórios a existência de trub, fermentação mais consistente, cerveja com mais drinkability, maior estabilidade coloidal, melhor filtrabilidade da cerveja final, trub mais compacto com menor tempo de repouso e com menor perda e carga térmica de mosto. Maior vazão de resfriamento sem arrastar trub.
+            </p>
+
+                <h3>Aplicação:</h3>
+
+            <p>
+                Usar 10-100g/1000 L de mosto (1-10g/hl). Dosagem ótima a ser definida na prática. Indicação aproximada da dosagem pode ser obtida em teste de laboratório. A sobre-dosagem causa repulsão das partículas e dispersão do trub.
+            </p>
+
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,56 @@
+@charset "UTF08";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --fonte-titulo: 'Passion One', cursive;;
+    --fonte-paragrafo: 'Sriracha', cursive;;
+}
+header{
+    background-color: black;
+    color: white;
+    max-height: 40vh;
+    text-align: center;
+}
+header > h1{
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px ;
+}
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header > p > a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    
+}
+section{
+    font-family: var(--fonte-paragrafo);
+    font-weight: 500;
+    font-size: 3vw;
+    padding: 50px 30px 100px;  
+    line-height: 2em;
+}
+.box > p{
+    background-color: rgba(0, 0, 0, 0.295);
+    max-width: 240px;
+    padding: 5px;
+    
+}
+.fundo{
+    background-image: url('imagens/ladybug.jpg');
+    background-size: cover;
+}

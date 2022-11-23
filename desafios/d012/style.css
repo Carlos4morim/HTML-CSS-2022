@@ -11,19 +11,20 @@
 }
 header{
     background-color: black;
-    color: white;
-    max-height: 40vh;
     text-align: center;
+    margin-bottom: 30px ;
 }
 header > h1{
-    font-family: var(--fonte-titulo);
-    font-variant: small-caps;
+    color: white;
     font-size: 10vw;
-    padding-top: 50px ;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte-titulo);
+
 }
 header > p{
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
     padding-bottom: 50px;
 }
 header > p > a{
@@ -35,22 +36,68 @@ header > p > a:hover{
     text-decoration: underline;
     color: white;
     font-weight: bold;
-    
 }
-section{
+.fechado{
     font-family: var(--fonte-paragrafo);
-    font-weight: 500;
-    font-size: 3vw;
-    padding: 50px 30px 100px;  
     line-height: 2em;
+    font-size: 3.5vw;
+    padding: 30px;
 }
-.box > p{
-    background-color: rgba(0, 0, 0, 0.295);
-    max-width: 240px;
-    padding: 5px;
+.aberto1{
+    font-family: var(--fonte-paragrafo);
+    line-height: 2em;
+    font-size: 3.5vw;
+    padding: 62px 30px 62px;
+    margin-top: 80px;
+    margin-bottom: 30px;
     
+
+    background: white url('imagens/ladybug.jpg') right bottom no-repeat fixed;
+    background-size: cover; 
 }
-.fundo{
-    background-image: url('imagens/ladybug.jpg');
-    background-size: cover;
+.aberto1 > p{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    width: 41.5vw;
+    padding-left: 4px ;
+    text-shadow: 2px 2px 2px black;
+}
+
+.aberto2{
+    font-family: var(--fonte-paragrafo);
+    line-height: 2em;
+    font-size: 3.5vw;
+    padding: 62px 30px 62px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+
+    background: white url('imagens/paper.jpg') right bottom no-repeat fixed;
+    background-size: cover; 
+}
+.aberto2 > p{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    width: 42vw;
+    padding-left: 4px ;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;    
 }

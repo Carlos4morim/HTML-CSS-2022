@@ -8,12 +8,21 @@
 *{
     margin: 0;
 }
-section{
+main > section{
     height: 100vh;
 }
 .container1{
     display: flex;
-    background-color: rgba(231, 161, 220, 0.342);
+    background-color: rgba(211, 211, 211, 0.301)
+}
+.container2{
+    display: flex;
+    background-color: rgba(255, 81, 81, 0.301);
+    background-image: url('imagens/paper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
 }
 .box1{
     display: flex;
@@ -52,7 +61,8 @@ div.box2{
     font-size: 1.2em;
 }
 
-/* */
+/* página 2 */
+
 .box3{
     padding-top: 15vh;
     padding-left: 10vh;
@@ -96,4 +106,92 @@ div.box2{
     text-align: justify;
     font-size: 1.2em;
     padding-bottom: 113px;
+}
+/* página 3*/
+
+.box5 > img{
+    height: 90vh;
+    margin: 4vh 0vw;
+    box-shadow: 3px 6px 10px  #312e2fa6;
+}
+.box6a{
+    display: flex;
+    justify-content: center;
+}
+.box6c{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.329);
+    border-right: 3px solid rgba(128, 128, 128, 0.329);
+    box-shadow: 2px 3px 7px  #f28ba8a6;
+    font-family: var(--fonte-paragrafos);
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+    padding-left: 7vw;
+    padding-right: 6vw;
+    padding-top: 10vh;
+    padding-bottom: 8vh;
+    columns: 2;
+    font-size: 1.2em;
+    background-color: #F28BA8;
+}
+.box6c > p{
+    text-shadow: 2px 2px 2px gray;
+}
+/* página 4*/
+
+.box7{
+    width: 50vw;
+}
+.box7a{
+    height: 50vh;
+}
+.box7b{
+    height: 50vh;
+}
+.box7a{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.box7a > h1{
+    font-family: var(--fonte-titulo);
+    color: rgb(138, 34, 34);
+    font-size: 4vw;
+    max-width: 35vw;
+}
+.box7a > p{
+    font-family: var(--fonte-paragrafos);
+    font-size: 1.2vw;
+    padding-top: 4vh;
+    font-weight: bold;
+    
+}
+.box7b{
+    background-image: url('imagens/z.jpg');
+    background-position: right;
+    background-size: cover;
+    padding: 0.5vw;
+    height: 47.8vh;
+}
+.box7c{
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box8{
+    background-color: rgb(138, 34, 34);
+    width: 50vw;
+    height: 100vh;
+    color: white;
+}
+.box8a{
+    padding-top: 20vh;
 }

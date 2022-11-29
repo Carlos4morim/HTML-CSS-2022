@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+}
+header{
+    background-color: gray;
+    color: white;
+}
+header > h1{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+header > h1:hover{ 
+    background: -webkit-linear-gradient(rgb(137, 15, 236), rgb(248, 3, 85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.cardcat{
+    margin-top: 50px; 
+    height: 50vh;
+    width: 70vh;
+    background-image: url('imagem/cat.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.cardcat:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}
+
+.cardbutterfly{
+    margin-top: 50px; 
+    height: 50vh;
+    width: 70vh;
+    background-image: url('imagem/butterfly.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.cardbutterfly:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}

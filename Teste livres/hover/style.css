@@ -4,36 +4,41 @@
     margin: 0;
     padding: 0;
 }
-main{
+body{
     height: 100vh;
 }
 header{
-    background-color: gray;
+    background: gray url('imagem/tumbmarguerita.jpg') no-repeat center;
+    background-size: cover;
     color: white;
 }
-header > h1{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+.divheader{
+    background-image: linear-gradient( to top, rgba(89, 134, 187, 0.733), rgba(255, 255, 255, 0));
+}
+div > h1{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5vw;
     text-align: center;
 }
-header > h1:hover{ 
+div > h1:hover{ 
     background: -webkit-linear-gradient(rgb(137, 15, 236), rgb(248, 3, 85));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .container{
+    padding: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     
 }
 .cardcat{
-    margin-top: 50px; 
-    height: 50vh;
-    width: 70vh;
+    
+    height: 40vh;
+    width: 60vh;
     background-image: url('imagem/cat.jpg');
     background-size: cover;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
@@ -46,15 +51,90 @@ header > h1:hover{
 }
 
 .cardbutterfly{
-    margin-top: 50px; 
-    height: 50vh;
-    width: 70vh;
+    
+    height: 40vh;
+    width: 60vh;
     background-image: url('imagem/butterfly.jpg');
     background-size: cover;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
     
 }
 .cardbutterfly:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}
+
+.carddandelion{
+    
+    height: 40vh;
+    width: 60vh;
+    background-image: url('imagem/dandelion.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.carddandelion:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}
+
+.cardflower{
+    
+    height: 40vh;
+    width: 60vh;
+    background-image: url('imagem/flower.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.cardflower:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}
+
+.cardrose{
+     
+    height: 40vh;
+    width: 60vh;
+    background-image: url('imagem/rose.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.cardrose:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}
+
+.cardwater{
+    
+    height: 40vh;
+    width: 60vh;
+    background-image: url('imagem/water.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.cardwater:hover{
+    background-size: 100vh;
+    background-position: center ;
+    transition-duration: .5s;
+}
+
+.cardrosepink{
+    
+    height: 40vh;
+    width: 60vh;
+    background-image: url('imagem/rosepink.jpg');
+    background-size: cover;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.616);
+    
+}
+.cardrosepink:hover{
     background-size: 100vh;
     background-position: center ;
     transition-duration: .5s;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias illum magnam at! Eaque, itaque amet! Unde accusamus delectus cum cumque velit obcaecati. Consectetur minima earum laboriosam aspernatur nihil eaque molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsa, vitae vero eveniet eos distinctio totam. Illo quidem pariatur, et, rerum deleniti harum veniam dicta culpa nisi natus, porro eaque?</p>
+
+    <ul>
+        <li><a href="https://www.mercadolivre.com.br/" target="frame">Primeira página</a></li>
+        <li><a href="paginasextras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginasextras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus recusandae commodi error ut voluptas quam laboriosam alias esse repellat veritatis? Ex incidunt commodi fuga natus hic? Possimus nesciunt ducimus quasi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae est, inventore voluptate nam explicabo quisquam at dolores ratione impedit, voluptatum voluptates, dolorum hic ullam! Voluptates accusamus impedit ad sit at?</p>
+
+    <iframe srcdoc="<h1>Escolha um das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam saepe doloribus quis tenetur quisquam consectetur, omnis aspernatur asperiores ab dicta perspiciatis facilis dolores? Maxime amet harum natus perspiciatis sit?</p> " id="tela" name="frame"> 
+        <p>Infelizmente seu navegador não e compativel.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sunt voluptates, consequatur perspiciatis ducimus molestiae ullam ipsa ratione? Ex, est laboriosam. Error iste hic, corporis minus excepturi consectetur id et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa eaque veritatis adipisci voluptatem in, nulla explicabo totam minus. Accusantium, eaque at nisi adipisci veniam minus excepturi eveniet perspiciatis inventore?</p>
+</body>
+</html>

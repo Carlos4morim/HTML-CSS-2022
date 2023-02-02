@@ -1,0 +1,23 @@
+@charset "UT-8";
+
+/* Estilo para impressoras */
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1em;
+}
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+article::after{
+    content: 'Esse artigo foi impresso atraves do site www.nubweb.com';
+}

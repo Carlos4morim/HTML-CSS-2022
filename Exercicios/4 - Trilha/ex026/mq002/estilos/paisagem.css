@@ -5,15 +5,3 @@ body{
     background: brown url(../imagens/cev-landscape.jpg) no-repeat left bottom;
     background-size: cover;
 }
-h1{
-    font-size: 3.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-shadow: 3px 3px 4px black;
-    text-align: center;
-    position: relative;
-    max-width: 500px;
-
-    top: 70vh;
-    left: 45vw;
-}
